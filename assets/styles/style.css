@@ -1,0 +1,249 @@
+/*************** HOME ***************/
+
+html,body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: 'FirstTake';
+    src: url(../images/FirstTake-Demo.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+#pic1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #CFE1F5;
+    padding: 10px;
+    text-align: center;
+}
+
+b {
+    font-weight: 900;
+    color: #1c1c1c;
+}
+
+
+#background {
+    position: absolute;
+    width: 100%;
+    height: 81%;
+    background-image: url("../images/greatwave.png");
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    overflow: hidden;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#name {
+    position: relative;
+    top: 120px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 100px;
+    color: #575757;
+    font-family: FirstTake;
+    font-weight: 100;
+}
+
+.nav {
+    top: 5%;
+    left: 30%;
+    word-spacing: 100px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: #575757;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #575757;
+}
+
+a:hover {
+    text-decoration: underline solid;
+}
+
+
+/*************** ABOUT ***************/
+
+#aboutpic {
+    height: 550px;
+    width: 400px;
+    position: absolute;
+    top: 135px;
+    left: 140px;
+    border-style: solid;
+    border-color: #575757
+}
+
+.description {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #504F4F;
+    margin-left: 700px;
+    margin-right: 150px;
+    margin-top: 200px;
+}
+
+#greeting {
+    font-family: FirstTake;
+    font-size: 75px;
+    color: #575757;
+    position: relative;
+    left: 700px;
+    top: 200px;
+}
+
+#contacts {
+    position: relative;
+    top: 500px;
+    left: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.twit {
+    margin-right: 40px;
+    height: 40px;
+    width: 45px;
+}
+
+.twit:hover, .icon:hover {
+    transition: linear 0.2s;
+    transform: scale(1.1);
+}
+
+#flower {
+    position: absolute;
+    bottom: 370px;
+    right: 900px;
+}
+
+
+/*************** DRAGONBOAT ***************/
+
+#companionMethods {
+    font-family: 'Lato', sans-serif;
+    font-size: 20;
+    color: #575757;
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+.typewriter {
+    position: relative;
+}
+
+#carousel,
+.carousel-image {
+  width: 600px;
+  height: 450px;
+}
+
+#carousel {
+    position: relative;
+    top: 70px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #575757;
+    font-size: 20;
+    overflow: hidden;
+}
+
+#carousel-image-row {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    left: 0px;
+    transition: 0.5s left;
+}
+
+.carousel-image img {
+  height: 400px;
+  width: auto;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#carousel-controls {			
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#button-next,
+#button-previous {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 50px;
+}
+
+#name2 {
+    position: relative;
+    top: 70px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 100px;
+    color: #575757;
+    font-family: FirstTake;
+    font-weight: 100;
+}
+
+#background2 {
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    background-image: url("../images/logo2.png");
+    left: 185px;
+    top: 100px;
+    bottom: 2px;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.5;
+    z-index: -1;
+}
